@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rani Cake - खुसी थप्दै!</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="fav-icon.jpg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Rani-Cake<span class="span">.</span></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#food-menu" class="navbar-link" data-nav-link>Shop</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#footer" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+        
+        <a href="" class="btn btn-hover">Reservation</a>
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-container>
+
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+        class="search-input">
+
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Eat Sleep And</p>
+
+            <h2 class="h1 hero-title">Supper delicious Cake in town!</h2>
+
+            <p class="hero-text">Our cakes are baked with love to provide the best taste and nutritional support.</p>
+
+            <button class="btn">Order Now</button>
+            
+
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner-bg.png" width="820" height="716" alt="" aria-hidden="true"
+              class="w-100 hero-img-bg">
+
+            <img src="./assets/images/hero-banner.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 hero-img">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROMO
+      -->
+
+      <section class="section section-divider white promo">
+        <div class="container">
+
+          <ul class="promo-list has-scrollbar">
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none"
+                    xmlns:v="https://vecta.io/nano">
+                    <g clip-path="url(#A)" fill="#ff9d2d">
+                      <path
+                        d="M43.033.002L42.563 0c-7.896 0-15.555 1.546-22.767 4.597-6.965 2.946-13.22 7.163-18.592 12.535l-.043.044c-1.548 1.551-1.546 4.075.004 5.625l2.256 2.257c.754.754 1.76 1.17 2.832 1.17h.001a3.98 3.98 0 0 0 2.834-1.171l.04-.04a1.7 1.7 0 0 1 1.21-.499h.021a1.73 1.73 0 0 1 1.238.537l4.596 4.807c.466.488 1.095.761 1.768.768h.028c.663 0 1.285-.258 1.756-.729.975-.975.993-2.58.04-3.577l-3.308-3.46c-.295-.309-.311-.797-.035-1.087a.76.76 0 0 1 .554-.239h.001a.76.76 0 0 1 .553.236l1.041 1.09c.95.994 2.49 1.079 3.507.195a2.5 2.5 0 0 0 .865-1.787 2.53 2.53 0 0 0-.696-1.858l-.755-.79a1.72 1.72 0 0 1-.454-1.511c.099-.549.444-1.003.944-1.245a46.86 46.86 0 0 1 20.561-4.69l.419.002c1.07.011 2.07-.399 2.827-1.149a3.96 3.96 0 0 0 1.179-2.828V3.984A4 4 0 0 0 43.033.002h0zm2.2 7.199a2.21 2.21 0 0 1-.659 1.581 2.18 2.18 0 0 1-1.575.641l-.435-.002a48.6 48.6 0 0 0-21.325 4.865A3.44 3.44 0 0 0 19.33 16.8a3.46 3.46 0 0 0 .912 3.037l.756.79a.76.76 0 0 1-.052 1.106c-.303.263-.789.226-1.085-.083l-1.041-1.089a2.53 2.53 0 0 0-1.822-.779 2.5 2.5 0 0 0-1.827.784c-.929.976-.912 2.518.037 3.512l3.308 3.46a.82.82 0 0 1-.012 1.121.74.74 0 0 1-.523.215c-.197-.002-.381-.083-.519-.226l-4.596-4.808a3.47 3.47 0 0 0-2.487-1.08h-.042a3.44 3.44 0 0 0-2.449 1.011l-.014.014-.009.009-.022.022c-.423.423-.988.656-1.591.656s-1.168-.232-1.591-.655L2.404 21.56a2.23 2.23 0 0 1 0-3.145l.042-.042A56.54 56.54 0 0 1 20.48 6.214c6.994-2.958 14.423-4.458 22.083-4.458l.454.002h0a2.24 2.24 0 0 1 2.215 2.226v3.218zm-.908 6.202a.88.88 0 0 0-.878.878v43.292c0 .412-.314.574-.411.614s-.433.147-.724-.144L11.436 27.166a.88.88 0 0 0-1.242 0 .88.88 0 0 0 0 1.242l30.877 30.877c.469.469 1.073.715 1.696.715.314 0 .633-.063.942-.19a2.38 2.38 0 0 0 1.494-2.237V14.281a.88.88 0 0 0-.878-.878h0zm-6.657-1.125c-2.112 0-3.83 1.718-3.83 3.83s1.718 3.83 3.83 3.83 3.83-1.718 3.83-3.83-1.718-3.83-3.83-3.83zm0 5.903c-1.143 0-2.074-.93-2.074-2.074s.93-2.073 2.074-2.073 2.073.93 2.073 2.073-.93 2.074-2.073 2.074zM22.575 34.938a3.55 3.55 0 0 0 3.547 3.547 3.55 3.55 0 0 0 3.547-3.547 3.55 3.55 0 0 0-3.547-3.547 3.55 3.55 0 0 0-3.547 3.547h0zm3.547-1.791c.987 0 1.791.803 1.791 1.791s-.803 1.791-1.791 1.791-1.791-.803-1.791-1.791.804-1.791 1.791-1.791zm12.81-2.283a3.68 3.68 0 0 0-3.672 3.672 3.68 3.68 0 0 0 3.672 3.672 3.68 3.68 0 0 0 3.672-3.672 3.68 3.68 0 0 0-3.672-3.672zm0 5.588a1.92 1.92 0 0 1-1.916-1.915 1.92 1.92 0 0 1 1.916-1.916 1.92 1.92 0 0 1 1.915 1.916 1.92 1.92 0 0 1-1.915 1.915zm2.97 8.702a3.92 3.92 0 0 0-3.913-3.912h-.645a3.92 3.92 0 0 0-3.913 3.912 1.7 1.7 0 0 0 1.697 1.697h.23l-.037.687a1.57 1.57 0 0 0 .427 1.16c.294.31.709.488 1.136.488h1.562a1.57 1.57 0 0 0 1.136-.488c.294-.31.45-.733.428-1.16l-.037-.687h.23a1.7 1.7 0 0 0 1.697-1.697h0zm-2.515-.059a1.2 1.2 0 0 0-.87.374c-.225.238-.345.562-.327.889l.057 1.073h-1.16l.057-1.073a1.2 1.2 0 0 0-1.198-1.263h-.758a2.16 2.16 0 0 1 2.156-2.097h.645a2.16 2.16 0 0 1 2.155 2.097h-.758zm-9.689-26.32a4.46 4.46 0 0 0-4.454 4.455v.76a4.46 4.46 0 0 0 4.454 4.455c1.017 0 1.844-.827 1.844-1.843v-.437l.975.052a1.69 1.69 0 0 0 1.251-.46c.335-.318.526-.764.526-1.225v-1.841c0-.461-.192-.908-.526-1.225s-.792-.485-1.251-.46l-.975.052v-.437c0-1.017-.827-1.844-1.844-1.844zm2.84 3.986v1.697l-1.43-.076c-.344-.017-.682.107-.931.343s-.392.569-.392.912v.963c0 .049-.039.087-.087.087A2.7 2.7 0 0 1 27 23.99v-.761a2.7 2.7 0 0 1 2.698-2.698c.048 0 .087.039.087.087v.964c0 .343.143.676.392.912a1.26 1.26 0 0 0 .931.343l1.43-.076z" />
+                    </g>
+                    <defs>
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Sponge Cake</h3>
+
+<p class="card-text">
+  Sponge cake is light and fluffy, made with flour, sugar, and eggs, perfect for layering or eating plain.
+</p>
+
+                
+                
+
+                <img src="./assets/images/promo-1.png" width="300" height="300" loading="lazy" alt="Sponge Cake"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none"
+                    xmlns:v="https://vecta.io/nano">
+                    <g clip-path="url(#A)">
+                      <path
+                        d="M56.993 41.631v-2.214c0-.133-.01-.265-.023-.396.218-.131.421-.276.605-.435.815-.705 1.245-1.636 1.245-2.691 0-.903-.333-1.764-.907-2.429.451-.536.707-1.218.694-1.928a2.97 2.97 0 0 0-1.991-2.734 3.74 3.74 0 0 0 .368-1.622v-.645A3.25 3.25 0 0 0 60 23.301c0-.248-.052-6.13-4.59-11.715-2.306-2.839-5.359-5.087-9.075-6.682C41.841 2.974 36.345 1.994 30 1.992c-7.992.003-14.592 1.548-19.616 4.592a.88.88 0 1 0 .912 1.506C16.041 5.215 22.334 3.755 30 3.753c6.105.002 11.367.933 15.641 2.769 3.451 1.482 6.278 3.559 8.403 6.174 4.148 5.106 4.196 10.383 4.196 10.605 0 .819-.666 1.484-1.484 1.484H3.245c-.818 0-1.484-.666-1.484-1.484 0-.221.029-2.241 1.035-5.017 1.101-3.038 2.892-5.68 5.323-7.852a.88.88 0 1 0-1.173-1.313C.079 15.255 0 22.975 0 23.301a3.25 3.25 0 0 0 3.017 3.236v.645c0 .585.135 1.14.374 1.635a3.06 3.06 0 0 0-1.153.735 2.9 2.9 0 0 0-.845 2.099c.012.679.255 1.314.67 1.817-.574.665-.906 1.526-.906 2.428-.001 1.056.429 1.986 1.245 2.691.195.169.412.321.646.458a3.74 3.74 0 0 0-.021.373v2.212A3.25 3.25 0 0 0 0 44.866a13.19 13.19 0 0 0 13.172 13.172h33.656A13.19 13.19 0 0 0 60 44.866a3.25 3.25 0 0 0-3.007-3.235h0zm-.57-4.376c-.809.7-2.293.991-3.873.76-1.118-.164-1.707-.475-2.33-.805l-.439-.227 2-2.035c.249-.254.597-.4.953-.4h2.864a2.96 2.96 0 0 0 .805-.111 1.96 1.96 0 0 1 .656 1.46c0 .536-.214.993-.636 1.358h0zM4.778 26.546h50.445v.636c0 .683-.344 1.288-.867 1.65-.015.011-.03.02-.045.03a1.97 1.97 0 0 1-.115.07l-.04.023a2.09 2.09 0 0 1-.153.074 1.95 1.95 0 0 1-.187.069c-.007.002-.014.004-.021.006-.051.016-.103.029-.155.04l-.049.01c-.045.008-.091.016-.137.021l-.052.006c-.062.006-.124.01-.187.01H6.785a2.01 2.01 0 0 1-2.008-2.008v-.636zm-1.283 4.239a1.28 1.28 0 0 1 .906-.384h.428a3.75 3.75 0 0 0 1.957.549h46.428a3.89 3.89 0 0 0 .233-.008c.025-.001.049-.004.073-.006a3.78 3.78 0 0 0 .162-.017l.079-.01c.069-.01.137-.021.204-.035.028-.006.056-.013.085-.019l.138-.034c.035-.009.07-.019.104-.029s.074-.023.11-.035l.105-.035c.06-.022.12-.046.178-.071.035-.015.07-.032.105-.048s.065-.031.098-.047l.102-.053c.038-.021.077-.043.114-.065.023-.013.046-.025.069-.039h.48a1.2 1.2 0 0 1 1.193 1.17c.009.45-.266.877-.699 1.087h0c-.176.086-.361.13-.548.13h-2.864c-.825 0-1.631.337-2.209.927l-3.568 3.632c-.85.866-2.199.983-3.184.317l-.064-.044a2.4 2.4 0 0 1-.162-.125l-4.623-3.961a3.1 3.1 0 0 0-2.015-.745H4.347a1.18 1.18 0 0 1-.523-.123h0a1.19 1.19 0 0 1-.669-1.047c-.006-.307.115-.602.341-.833h0zm-.577 5.112a1.96 1.96 0 0 1 .65-1.453 2.93 2.93 0 0 0 .779.105H36.91a1.34 1.34 0 0 1 .87.321l3.655 3.132a6.22 6.22 0 0 1-.229.004c-1.159 0-1.685-.315-2.352-.715-.755-.452-1.611-.965-3.257-.965s-2.501.513-3.257.965c-.666.399-1.193.715-2.352.715s-1.686-.315-2.352-.715c-.755-.452-1.611-.965-3.257-.965s-2.502.513-3.257.965c-.667.399-1.193.715-2.352.715s-1.686-.315-2.352-.715c-.755-.452-1.611-.965-3.257-.965-1.739 0-2.587.45-3.407.884-.623.33-1.211.641-2.329.805-1.58.231-3.063-.06-3.872-.759a1.73 1.73 0 0 1-.635-1.359h0zm43.91 20.382H13.172c-6.292 0-11.412-5.12-11.412-11.412 0-.818.666-1.484 1.484-1.484h39.461a.88.88 0 1 0 0-1.761H4.788v-1.928c.5.104 1.033.159 1.587.159.426 0 .863-.032 1.306-.097 1.419-.208 2.205-.624 2.898-.991.716-.38 1.282-.679 2.583-.679 1.159 0 1.686.315 2.352.715.755.452 1.611.965 3.257.965s2.501-.513 3.256-.965c.667-.399 1.193-.715 2.352-.715s1.686.315 2.352.715c.755.452 1.611.965 3.257.965s2.501-.513 3.256-.965c.666-.399 1.193-.715 2.352-.715s1.686.315 2.352.715c.755.452 1.611.965 3.257.965.784 0 1.441-.114 2.073-.358.596.295 1.244.442 1.893.442 1.108 0 2.214-.428 3.042-1.27l.246-.25c.331.117.62.268.938.437.694.367 1.479.783 2.898.991.443.065.881.097 1.306.097.569 0 1.117-.058 1.63-.169v1.937h-8.431a.88.88 0 1 0 0 1.761h9.954c.819 0 1.484.666 1.484 1.484a11.43 11.43 0 0 1-11.412 11.412h0z"
+                        fill="#ff9d2d" />
+                    </g>
+                    <defs>
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Cup cakes</h3>
+
+<p class="card-text">
+  Small, individual cakes baked in cups, with frosting and decorative elements.
+</p>
+
+                
+
+                <img src="./assets/images/promo-2.png" width="300" height="300" loading="lazy" alt="Cupcakes"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none"
+                    xmlns:v="https://vecta.io/nano">
+                    <g clip-path="url(#A)" fill="#ff9d2d">
+                      <path
+                        d="M43.033.002L42.563 0c-7.896 0-15.555 1.546-22.767 4.597-6.965 2.946-13.22 7.163-18.592 12.535l-.043.044c-1.548 1.551-1.546 4.075.004 5.625l2.256 2.257c.754.754 1.76 1.17 2.832 1.17h.001a3.98 3.98 0 0 0 2.834-1.171l.04-.04a1.7 1.7 0 0 1 1.21-.499h.021a1.73 1.73 0 0 1 1.238.537l4.596 4.807c.466.488 1.095.761 1.768.768h.028c.663 0 1.285-.258 1.756-.729.975-.975.993-2.58.04-3.577l-3.308-3.46c-.295-.309-.311-.797-.035-1.087a.76.76 0 0 1 .554-.239h.001a.76.76 0 0 1 .553.236l1.041 1.09c.95.994 2.49 1.079 3.507.195a2.5 2.5 0 0 0 .865-1.787 2.53 2.53 0 0 0-.696-1.858l-.755-.79a1.72 1.72 0 0 1-.454-1.511c.099-.549.444-1.003.944-1.245a46.86 46.86 0 0 1 20.561-4.69l.419.002c1.07.011 2.07-.399 2.827-1.149a3.96 3.96 0 0 0 1.179-2.828V3.984A4 4 0 0 0 43.033.002h0zm2.2 7.199a2.21 2.21 0 0 1-.659 1.581 2.18 2.18 0 0 1-1.575.641l-.435-.002a48.6 48.6 0 0 0-21.325 4.865A3.44 3.44 0 0 0 19.33 16.8a3.46 3.46 0 0 0 .912 3.037l.756.79a.76.76 0 0 1-.052 1.106c-.303.263-.789.226-1.085-.083l-1.041-1.089a2.53 2.53 0 0 0-1.822-.779 2.5 2.5 0 0 0-1.827.784c-.929.976-.912 2.518.037 3.512l3.308 3.46a.82.82 0 0 1-.012 1.121.74.74 0 0 1-.523.215c-.197-.002-.381-.083-.519-.226l-4.596-4.808a3.47 3.47 0 0 0-2.487-1.08h-.042a3.44 3.44 0 0 0-2.449 1.011l-.014.014-.009.009-.022.022c-.423.423-.988.656-1.591.656s-1.168-.232-1.591-.655L2.404 21.56a2.23 2.23 0 0 1 0-3.145l.042-.042A56.54 56.54 0 0 1 20.48 6.214c6.994-2.958 14.423-4.458 22.083-4.458l.454.002h0a2.24 2.24 0 0 1 2.215 2.226v3.218zm-.908 6.202a.88.88 0 0 0-.878.878v43.292c0 .412-.314.574-.411.614s-.433.147-.724-.144L11.436 27.166a.88.88 0 0 0-1.242 0 .88.88 0 0 0 0 1.242l30.877 30.877c.469.469 1.073.715 1.696.715.314 0 .633-.063.942-.19a2.38 2.38 0 0 0 1.494-2.237V14.281a.88.88 0 0 0-.878-.878h0zm-6.657-1.125c-2.112 0-3.83 1.718-3.83 3.83s1.718 3.83 3.83 3.83 3.83-1.718 3.83-3.83-1.718-3.83-3.83-3.83zm0 5.903c-1.143 0-2.074-.93-2.074-2.074s.93-2.073 2.074-2.073 2.073.93 2.073 2.073-.93 2.074-2.073 2.074zM22.575 34.938a3.55 3.55 0 0 0 3.547 3.547 3.55 3.55 0 0 0 3.547-3.547 3.55 3.55 0 0 0-3.547-3.547 3.55 3.55 0 0 0-3.547 3.547h0zm3.547-1.791c.987 0 1.791.803 1.791 1.791s-.803 1.791-1.791 1.791-1.791-.803-1.791-1.791.804-1.791 1.791-1.791zm12.81-2.283a3.68 3.68 0 0 0-3.672 3.672 3.68 3.68 0 0 0 3.672 3.672 3.68 3.68 0 0 0 3.672-3.672 3.68 3.68 0 0 0-3.672-3.672zm0 5.588a1.92 1.92 0 0 1-1.916-1.915 1.92 1.92 0 0 1 1.916-1.916 1.92 1.92 0 0 1 1.915 1.916 1.92 1.92 0 0 1-1.915 1.915zm2.97 8.702a3.92 3.92 0 0 0-3.913-3.912h-.645a3.92 3.92 0 0 0-3.913 3.912 1.7 1.7 0 0 0 1.697 1.697h.23l-.037.687a1.57 1.57 0 0 0 .427 1.16c.294.31.709.488 1.136.488h1.562a1.57 1.57 0 0 0 1.136-.488c.294-.31.45-.733.428-1.16l-.037-.687h.23a1.7 1.7 0 0 0 1.697-1.697h0zm-2.515-.059a1.2 1.2 0 0 0-.87.374c-.225.238-.345.562-.327.889l.057 1.073h-1.16l.057-1.073a1.2 1.2 0 0 0-1.198-1.263h-.758a2.16 2.16 0 0 1 2.156-2.097h.645a2.16 2.16 0 0 1 2.155 2.097h-.758zm-9.689-26.32a4.46 4.46 0 0 0-4.454 4.455v.76a4.46 4.46 0 0 0 4.454 4.455c1.017 0 1.844-.827 1.844-1.843v-.437l.975.052a1.69 1.69 0 0 0 1.251-.46c.335-.318.526-.764.526-1.225v-1.841c0-.461-.192-.908-.526-1.225s-.792-.485-1.251-.46l-.975.052v-.437c0-1.017-.827-1.844-1.844-1.844zm2.84 3.986v1.697l-1.43-.076c-.344-.017-.682.107-.931.343s-.392.569-.392.912v.963c0 .049-.039.087-.087.087A2.7 2.7 0 0 1 27 23.99v-.761a2.7 2.7 0 0 1 2.698-2.698c.048 0 .087.039.087.087v.964c0 .343.143.676.392.912a1.26 1.26 0 0 0 .931.343l1.43-.076z" />
+                    </g>
+                    <defs>
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Chocolate Cake</h3>
+
+<p class="card-text">
+  Rich cake made with cocoa or chocolate, typically layered with chocolate frosting or ganache.
+</p>
+
+                
+
+                <img src="./assets/images/promo-3.png" width="300" height="300" loading="lazy" alt="Chocolate Cake"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none"
+                    xmlns:v="https://vecta.io/nano">
+                    <g clip-path="url(#A)">
+                      <path
+                        d="M56.993 41.631v-2.214c0-.133-.01-.265-.023-.396.218-.131.421-.276.605-.435.815-.705 1.245-1.636 1.245-2.691 0-.903-.333-1.764-.907-2.429.451-.536.707-1.218.694-1.928a2.97 2.97 0 0 0-1.991-2.734 3.74 3.74 0 0 0 .368-1.622v-.645A3.25 3.25 0 0 0 60 23.301c0-.248-.052-6.13-4.59-11.715-2.306-2.839-5.359-5.087-9.075-6.682C41.841 2.974 36.345 1.994 30 1.992c-7.992.003-14.592 1.548-19.616 4.592a.88.88 0 1 0 .912 1.506C16.041 5.215 22.334 3.755 30 3.753c6.105.002 11.367.933 15.641 2.769 3.451 1.482 6.278 3.559 8.403 6.174 4.148 5.106 4.196 10.383 4.196 10.605 0 .819-.666 1.484-1.484 1.484H3.245c-.818 0-1.484-.666-1.484-1.484 0-.221.029-2.241 1.035-5.017 1.101-3.038 2.892-5.68 5.323-7.852a.88.88 0 1 0-1.173-1.313C.079 15.255 0 22.975 0 23.301a3.25 3.25 0 0 0 3.017 3.236v.645c0 .585.135 1.14.374 1.635a3.06 3.06 0 0 0-1.153.735 2.9 2.9 0 0 0-.845 2.099c.012.679.255 1.314.67 1.817-.574.665-.906 1.526-.906 2.428-.001 1.056.429 1.986 1.245 2.691.195.169.412.321.646.458a3.74 3.74 0 0 0-.021.373v2.212A3.25 3.25 0 0 0 0 44.866a13.19 13.19 0 0 0 13.172 13.172h33.656A13.19 13.19 0 0 0 60 44.866a3.25 3.25 0 0 0-3.007-3.235h0zm-.57-4.376c-.809.7-2.293.991-3.873.76-1.118-.164-1.707-.475-2.33-.805l-.439-.227 2-2.035c.249-.254.597-.4.953-.4h2.864a2.96 2.96 0 0 0 .805-.111 1.96 1.96 0 0 1 .656 1.46c0 .536-.214.993-.636 1.358h0zM4.778 26.546h50.445v.636c0 .683-.344 1.288-.867 1.65-.015.011-.03.02-.045.03a1.97 1.97 0 0 1-.115.07l-.04.023a2.09 2.09 0 0 1-.153.074 1.95 1.95 0 0 1-.187.069c-.007.002-.014.004-.021.006-.051.016-.103.029-.155.04l-.049.01c-.045.008-.091.016-.137.021l-.052.006c-.062.006-.124.01-.187.01H6.785a2.01 2.01 0 0 1-2.008-2.008v-.636zm-1.283 4.239a1.28 1.28 0 0 1 .906-.384h.428a3.75 3.75 0 0 0 1.957.549h46.428a3.89 3.89 0 0 0 .233-.008c.025-.001.049-.004.073-.006a3.78 3.78 0 0 0 .162-.017l.079-.01c.069-.01.137-.021.204-.035.028-.006.056-.013.085-.019l.138-.034c.035-.009.07-.019.104-.029s.074-.023.11-.035l.105-.035c.06-.022.12-.046.178-.071.035-.015.07-.032.105-.048s.065-.031.098-.047l.102-.053c.038-.021.077-.043.114-.065.023-.013.046-.025.069-.039h.48a1.2 1.2 0 0 1 1.193 1.17c.009.45-.266.877-.699 1.087h0c-.176.086-.361.13-.548.13h-2.864c-.825 0-1.631.337-2.209.927l-3.568 3.632c-.85.866-2.199.983-3.184.317l-.064-.044a2.4 2.4 0 0 1-.162-.125l-4.623-3.961a3.1 3.1 0 0 0-2.015-.745H4.347a1.18 1.18 0 0 1-.523-.123h0a1.19 1.19 0 0 1-.669-1.047c-.006-.307.115-.602.341-.833h0zm-.577 5.112a1.96 1.96 0 0 1 .65-1.453 2.93 2.93 0 0 0 .779.105H36.91a1.34 1.34 0 0 1 .87.321l3.655 3.132a6.22 6.22 0 0 1-.229.004c-1.159 0-1.685-.315-2.352-.715-.755-.452-1.611-.965-3.257-.965s-2.501.513-3.257.965c-.666.399-1.193.715-2.352.715s-1.686-.315-2.352-.715c-.755-.452-1.611-.965-3.257-.965s-2.502.513-3.257.965c-.667.399-1.193.715-2.352.715s-1.686-.315-2.352-.715c-.755-.452-1.611-.965-3.257-.965-1.739 0-2.587.45-3.407.884-.623.33-1.211.641-2.329.805-1.58.231-3.063-.06-3.872-.759a1.73 1.73 0 0 1-.635-1.359h0zm43.91 20.382H13.172c-6.292 0-11.412-5.12-11.412-11.412 0-.818.666-1.484 1.484-1.484h39.461a.88.88 0 1 0 0-1.761H4.788v-1.928c.5.104 1.033.159 1.587.159.426 0 .863-.032 1.306-.097 1.419-.208 2.205-.624 2.898-.991.716-.38 1.282-.679 2.583-.679 1.159 0 1.686.315 2.352.715.755.452 1.611.965 3.257.965s2.501-.513 3.256-.965c.667-.399 1.193-.715 2.352-.715s1.686.315 2.352.715c.755.452 1.611.965 3.257.965s2.501-.513 3.256-.965c.666-.399 1.193-.715 2.352-.715s1.686.315 2.352.715c.755.452 1.611.965 3.257.965.784 0 1.441-.114 2.073-.358.596.295 1.244.442 1.893.442 1.108 0 2.214-.428 3.042-1.27l.246-.25c.331.117.62.268.938.437.694.367 1.479.783 2.898.991.443.065.881.097 1.306.097.569 0 1.117-.058 1.63-.169v1.937h-8.431a.88.88 0 1 0 0 1.761h9.954c.819 0 1.484.666 1.484 1.484a11.43 11.43 0 0 1-11.412 11.412h0z"
+                        fill="#ff9d2d" />
+                    </g>
+                    <defs>
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Cheese Cake</h3>
+
+<p class="card-text">
+  Creamy dessert made with cream cheese often with a graham cracker crust.
+</p>
+
+                
+
+                <img src="./assets/images/promo-4.png" width="300" height="300" loading="lazy" alt="Cheesecake"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none"
+                    xmlns:v="https://vecta.io/nano">
+                    <g clip-path="url(#A)" fill="#ff9d2d">
+                      <path
+                        d="M43.033.002L42.563 0c-7.896 0-15.555 1.546-22.767 4.597-6.965 2.946-13.22 7.163-18.592 12.535l-.043.044c-1.548 1.551-1.546 4.075.004 5.625l2.256 2.257c.754.754 1.76 1.17 2.832 1.17h.001a3.98 3.98 0 0 0 2.834-1.171l.04-.04a1.7 1.7 0 0 1 1.21-.499h.021a1.73 1.73 0 0 1 1.238.537l4.596 4.807c.466.488 1.095.761 1.768.768h.028c.663 0 1.285-.258 1.756-.729.975-.975.993-2.58.04-3.577l-3.308-3.46c-.295-.309-.311-.797-.035-1.087a.76.76 0 0 1 .554-.239h.001a.76.76 0 0 1 .553.236l1.041 1.09c.95.994 2.49 1.079 3.507.195a2.5 2.5 0 0 0 .865-1.787 2.53 2.53 0 0 0-.696-1.858l-.755-.79a1.72 1.72 0 0 1-.454-1.511c.099-.549.444-1.003.944-1.245a46.86 46.86 0 0 1 20.561-4.69l.419.002c1.07.011 2.07-.399 2.827-1.149a3.96 3.96 0 0 0 1.179-2.828V3.984A4 4 0 0 0 43.033.002h0zm2.2 7.199a2.21 2.21 0 0 1-.659 1.581 2.18 2.18 0 0 1-1.575.641l-.435-.002a48.6 48.6 0 0 0-21.325 4.865A3.44 3.44 0 0 0 19.33 16.8a3.46 3.46 0 0 0 .912 3.037l.756.79a.76.76 0 0 1-.052 1.106c-.303.263-.789.226-1.085-.083l-1.041-1.089a2.53 2.53 0 0 0-1.822-.779 2.5 2.5 0 0 0-1.827.784c-.929.976-.912 2.518.037 3.512l3.308 3.46a.82.82 0 0 1-.012 1.121.74.74 0 0 1-.523.215c-.197-.002-.381-.083-.519-.226l-4.596-4.808a3.47 3.47 0 0 0-2.487-1.08h-.042a3.44 3.44 0 0 0-2.449 1.011l-.014.014-.009.009-.022.022c-.423.423-.988.656-1.591.656s-1.168-.232-1.591-.655L2.404 21.56a2.23 2.23 0 0 1 0-3.145l.042-.042A56.54 56.54 0 0 1 20.48 6.214c6.994-2.958 14.423-4.458 22.083-4.458l.454.002h0a2.24 2.24 0 0 1 2.215 2.226v3.218zm-.908 6.202a.88.88 0 0 0-.878.878v43.292c0 .412-.314.574-.411.614s-.433.147-.724-.144L11.436 27.166a.88.88 0 0 0-1.242 0 .88.88 0 0 0 0 1.242l30.877 30.877c.469.469 1.073.715 1.696.715.314 0 .633-.063.942-.19a2.38 2.38 0 0 0 1.494-2.237V14.281a.88.88 0 0 0-.878-.878h0zm-6.657-1.125c-2.112 0-3.83 1.718-3.83 3.83s1.718 3.83 3.83 3.83 3.83-1.718 3.83-3.83-1.718-3.83-3.83-3.83zm0 5.903c-1.143 0-2.074-.93-2.074-2.074s.93-2.073 2.074-2.073 2.073.93 2.073 2.073-.93 2.074-2.073 2.074zM22.575 34.938a3.55 3.55 0 0 0 3.547 3.547 3.55 3.55 0 0 0 3.547-3.547 3.55 3.55 0 0 0-3.547-3.547 3.55 3.55 0 0 0-3.547 3.547h0zm3.547-1.791c.987 0 1.791.803 1.791 1.791s-.803 1.791-1.791 1.791-1.791-.803-1.791-1.791.804-1.791 1.791-1.791zm12.81-2.283a3.68 3.68 0 0 0-3.672 3.672 3.68 3.68 0 0 0 3.672 3.672 3.68 3.68 0 0 0 3.672-3.672 3.68 3.68 0 0 0-3.672-3.672zm0 5.588a1.92 1.92 0 0 1-1.916-1.915 1.92 1.92 0 0 1 1.916-1.916 1.92 1.92 0 0 1 1.915 1.916 1.92 1.92 0 0 1-1.915 1.915zm2.97 8.702a3.92 3.92 0 0 0-3.913-3.912h-.645a3.92 3.92 0 0 0-3.913 3.912 1.7 1.7 0 0 0 1.697 1.697h.23l-.037.687a1.57 1.57 0 0 0 .427 1.16c.294.31.709.488 1.136.488h1.562a1.57 1.57 0 0 0 1.136-.488c.294-.31.45-.733.428-1.16l-.037-.687h.23a1.7 1.7 0 0 0 1.697-1.697h0zm-2.515-.059a1.2 1.2 0 0 0-.87.374c-.225.238-.345.562-.327.889l.057 1.073h-1.16l.057-1.073a1.2 1.2 0 0 0-1.198-1.263h-.758a2.16 2.16 0 0 1 2.156-2.097h.645a2.16 2.16 0 0 1 2.155 2.097h-.758zm-9.689-26.32a4.46 4.46 0 0 0-4.454 4.455v.76a4.46 4.46 0 0 0 4.454 4.455c1.017 0 1.844-.827 1.844-1.843v-.437l.975.052a1.69 1.69 0 0 0 1.251-.46c.335-.318.526-.764.526-1.225v-1.841c0-.461-.192-.908-.526-1.225s-.792-.485-1.251-.46l-.975.052v-.437c0-1.017-.827-1.844-1.844-1.844zm2.84 3.986v1.697l-1.43-.076c-.344-.017-.682.107-.931.343s-.392.569-.392.912v.963c0 .049-.039.087-.087.087A2.7 2.7 0 0 1 27 23.99v-.761a2.7 2.7 0 0 1 2.698-2.698c.048 0 .087.039.087.087v.964c0 .343.143.676.392.912a1.26 1.26 0 0 0 .931.343l1.43-.076z" />
+                    </g>
+                    <defs>
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Pound Cake</h3>
+
+                <p class="card-text">
+                  Dense and buttery, traditionally made with equal parts flour, butter, sugar, and eggs, often enjoyed with coffee.
+                </p>
+                
+                
+                
+
+                <img src="./assets/images/promo-5.png" width="300" height="300" loading="lazy" alt="Pound Cake"
+                class="w-100 card-banner">
+                 
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section section-divider gray about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+            <img src="./assets/images/about-banner.png" width="509" height="459" loading="lazy" alt="Burger with Drinks"
+              class="w-100 about-img">
+
+            <img src="./assets/images/sale-shape-red.png" width="216" height="226" alt="get up to 50% off now"
+              class="abs-img scale-up-anim">
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">
+              Cakes, Pastries, and Sweet Delights
+              <span class="span">For Every Occasion!</span>
+            </h2>
+            
+            <p class="section-text">
+              Our cake shop offers a delightful range of freshly baked cakes and pastries, perfect for every celebration or treat.
+            </p>
+            
+            <ul class="about-list">
+            
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">Artisan Cakes & Pastries</span>
+              </li>
+            
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">Custom Orders for Any Event</span>
+              </li>
+            
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">High-Quality Ingredients</span>
+              </li>
+            
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <span class="span">Fast & Reliable Service</span>
+              </li>
+            
+            </ul>
+
+            <button class="btn btn-hover">Order Now</button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FOOD MENU
+      -->
+
+      <section class="section food-menu" id="food-menu">
+        <div class="container">
+
+          <p class="section-subtitle">Popular Dishes</p>
+
+          <h2 class="h2 section-title">
+            Our Exquisite <span class="span">Cakes</span>
+          </h2>
+
+          <p class="section-text">
+            Explore our delightful range of cakes, from classic favorites to unique creations, made to impress every palate.
+        
+          </p>
+
+          <ul class="fiter-list">
+
+            <li>
+              <button class="filter-btn  active">All</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Layer Cake</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Cheesecakes</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Chocolate Cakes</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Seasonal Specials</button>
+            </li>
+
+          </ul>
+
+          <ul class="food-menu-list">
+
+            <li>
+                <div class="food-menu-card">
+
+                    <div class="card-banner">
+                        <img src="./assets/images/cake-menu-1.png" width="300" height="300" loading="lazy"
+                            alt="Classic Vanilla Layer Cake" class="w-100">
+
+                        <div class="badge">-10%</div>
+
+                        <button class="btn food-menu-btn">Order Now</button>
+                    </div>
+
+                    <div class="wrapper">
+                        <p class="category">Layer Cake</p>
+
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                    </div>
+
+                    <h3 class="h3 card-title">Black Forest with Fruits Toppings</h3>
+
+                    <div class="price-wrapper">
+
+                        <p class="price-text">Price:</p>
+
+                        <data class="price">RS 900</data>
+
+                        <del class="del">RS 1200</del>
+
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="food-menu-card">
+
+                    <div class="card-banner">
+                        <img src="./assets/images/cake-menu-2.png" width="300" height="300" loading="lazy"
+                            alt="Rich Chocolate Cake" class="w-100">
+
+                        <div class="badge">-15%</div>
+
+                        <button class="btn food-menu-btn">Order Now</button>
+                    </div>
+
+                    <div class="wrapper">
+                        <p class="category">Chocolate Cake</p>
+
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                    </div>
+
+                    <h3 class="h3 card-title">Rich Chocolate Cake</h3>
+
+                    <div class="price-wrapper">
+
+                        <p class="price-text">Price:</p>
+
+                        <data class="price">RS1200</data>
+
+                        <del class="del">Rs1500</del>
+
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="food-menu-card">
+
+                    <div class="card-banner">
+                        <img src="./assets/images/cake-menu-3.png" width="300" height="300" loading="lazy"
+                            alt="New York Cheesecake" class="w-100">
+
+                        <div class="badge">-20%</div>
+
+                        <button class="btn food-menu-btn">Order Now</button>
+                    </div>
+
+                    <div class="wrapper">
+                        <p class="category">Bride to Be Cake</p>
+
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                    </div>
+
+                    <h3 class="h3 card-title">Bride to Be Cake Black</h3>
+
+                    <div class="price-wrapper">
+
+                        <p class="price-text">Price:</p>
+
+                        <data class="price">Rs 1500</data>
+
+                        <del class="del">Rs1800</del>
+
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="food-menu-card">
+
+                    <div class="card-banner">
+                        <img src="./assets/images/cake-menu-4.png" width="300" height="300" loading="lazy"
+                            alt="Seasonal Fruit Cake" class="w-100">
+
+                        <div class="badge">-25%</div>
+
+                        <button class="btn food-menu-btn">Order Now</button>
+                    </div>
+
+                    <div class="wrapper">
+                        <p class="category">Blueberry Cake</p>
+
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                    </div>
+
+                    <h3 class="h3 card-title">Blueberry Cake</h3>
+
+                    <div class="price-wrapper">
+
+                        <p class="price-text">Price:</p>
+
+                        <data class="price">Rs 1050</data>
+
+                        <del class="del">Rs 1300 </del>
+
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="food-menu-card">
+
+                    <div class="card-banner">
+                        <img src="./assets/images/cake-menu-5.png" width="300" height="300" loading="lazy"
+                            alt="Mini Cupcakes Assortment" class="w-100">
+
+                        <div class="badge">-10%</div>
+
+                        <button class="btn food-menu-btn">Order Now</button>
+                    </div>
+
+                    <div class="wrapper">
+                        <p class="category">Safe jpurney Cake</p>
+
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                    </div>
+
+                    <h3 class="h3 card-title">Mini Cupcakes Assortment</h3>
+
+                    <div class="price-wrapper">
+
+                        <p class="price-text">Price:</p>
+
+                        <data class="price">Rs 1250</data>
+
+                        <del class="del">Rs 1500</del>
+
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="food-menu-card">
+
+                    <div class="card-banner">
+                        <img src="./assets/images/cake-menu-6.png" width="300" height="300" loading="lazy"
+                            alt="Lemon Drizzle Cake" class="w-100">
+
+                        <div class="badge">-12%</div>
+
+                        <button class="btn food-menu-btn">Order Now</button>
+                    </div>
+
+                    <div class="wrapper">
+                        <p class="category">Specialty Cake</p>
+
+                        <div class="rating-wrapper">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                    </div>
+
+                    <h3 class="h3 card-title">Rice Feeding Cake</h3>
+
+                    <div class="price-wrapper">
+
+                        <p class="price-text">Price:</p>
+
+                        <data class="price">RS 1100</data>
+
+                        <del class="del">Rs 1300</del>
+
+                    </div>
+
+                </div>
+            </li>
+
+        </ul>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section section-divider white cta" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="cta-content">
+
+            <h2 class="h2 section-title">
+                Enjoy Our
+                <span class="span">Delicious Cakes!</span>
+            </h2>
+
+            <p class="section-text">
+              Discover the delightful flavors of Rani Cake, crafted with care for every special occasion. From classic to unique creations, our cakes are made to impress.
+          </p>
+          
+
+            <button class="btn btn-hover">See Our Cakes</button>
+        </div>
+
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 cta-img">
+
+            <img src="./assets/images/sale-shape.png" width="216" height="226" loading="lazy"
+              alt="get up to 50% off now" class="abs-img scale-up-anim">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DELIVERY
+      -->
+
+      <section class="section section-divider gray delivery">
+        <div class="container">
+
+          <div class="delivery-content">
+
+            <h2 class="h2 section-title">
+              A Moments Of Delivered On <span class="span">Right Time</span> & Place
+            </h2>
+
+            <p class="section-text">
+              Rani Cake offers a wide selection of delicious cakes, each crafted with love and care. Whether for a celebration or a simple treat, our cakes bring joy and sweetness to every occasion.
+          </p>
+          
+
+            <button class="btn btn-hover">Order Now</button>
+          </div>
+
+          <figure class="delivery-banner">
+            <img src="./assets/images/delivery-banner-bg.png" width="700" height="602" loading="lazy" alt="clouds"
+              class="w-100">
+
+            <img src="./assets/images/delivery-boy.svg" width="1000" height="880" loading="lazy" alt="delivery boy"
+              class="w-100 delivery-img" data-delivery-boy>
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section section-divider white testi">
+        <div class="container">
+
+          <p class="section-subtitle">Testimonials</p>
+
+          <h2 class="h2 section-title">
+            Our Customers <span class="span">Reviews</span>
+          </h2>
+
+          <p class="section-text">
+            Food is any substance consumed to provide nutritional
+            support for an organism.
+          </p>
+
+          <ul class="testi-list has-scrollbar">
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-1.jpg" width="80" height="80" loading="lazy" alt="Thomas Josef">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Delhi Chaudhary</h3>
+
+                    <p class="testi-title">Member of Parliment</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Rani Cake has made every event special with their delicious and beautifully crafted cakes.  Thank you for adding a touch of sweetness to our celebrations!"
+              </blockquote>
+              
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-2.jpg" width="80" height="80" loading="lazy" alt="Robert William">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Nishchal kc</h3>
+
+                    <p class="testi-title">Customer</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Rani Cake has transformed every celebration with their cakes. Each bite is a delight, and their attention to detail is unmatched . Highly recommend for you "
+              </blockquote>
+              
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Charles Richard">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Bikash Kecy</h3>
+
+                    <p class="testi-title">Student</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would be lost without Rani Cake. Their cakes always make every celebration memorable. Thank you for your amazing creations!"
+              </blockquote>
+              
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #BANNER
+      -->
+
+      <section class="section section-divider gray banner">
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li class="banner-item banner-lg">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-1.jpg" width="550" height="450" loading="lazy"
+                  alt="Discount For Delicious Tasty Cake!" class="banner-img">
+
+                  <div class="banner-item-content">
+                    <p class="banner-subtitle">Sweet Savings!</p>
+                
+                    <h3 class="banner-title">Delicious Cakes Just for You!</h3>
+                
+                    <p class="banner-text">Get 20% off this week</p>
+                
+                    <button class="btn">Order Now</button>
+                </div>
+                
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-2.jpg" width="550" height="465" loading="lazy" alt="Delicious Cake"
+                  class="banner-img">
+
+                  <div class="banner-item-content">
+                    <h3 class="banner-title">Delicious Cakes</h3>
+                
+                    <p class="banner-text">20% Off This Week</p>
+                
+                    <button class="btn">Order Now</button>
+                </div>
+                
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-3.jpg" width="550" height="465" loading="lazy" alt="Freshly Baked Cakes"
+                  class="banner-img">
+
+                  <div class="banner-item-content">
+                    <h3 class="banner-title">Freshly Baked Cakes</h3>
+                
+                    <p class="banner-text">20% Off Today</p>
+                
+                    <button class="btn">Order Now</button>
+                </div>
+                
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-md">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
+                  class="banner-img">
+
+                  <div class="banner-item-content">
+                    <h3 class="banner-title">Delectable Cakes</h3>
+                
+                    <p class="banner-text">Enjoy 30% Off This Week</p>
+                
+                    <button class="btn">Explore Now</button>
+                </div>
+                
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section section-divider white blog" id="blog">
+        <div class="container">
+    
+            <p class="section-subtitle">Latest Updates</p>
+    
+            <h2 class="h2 section-title">
+                Discover Our <span class="span">Delicious Cakes</span>
+            </h2>
+    
+            <p class="section-text">
+                Explore the latest trends and tips on cakes from Rani Cakes. Stay updated with our newest creations and baking tips.
+            </p>
+    
+            <ul class="blog-list">
+    
+                <li>
+                    <div class="blog-card">
+    
+                        <div class="card-banner">
+                            <img src="./assets/images/blog-1.jpg" width="600" height="390" loading="lazy"
+                                alt="Top Trends in Cake Decorating" class="w-100">
+    
+                            <div class="badge">Cakes</div>
+                        </div>
+    
+                        <div class="card-content">
+    
+                            <div class="card-meta-wrapper">
+    
+                                <a href="#" class="card-meta-link">
+                                    <ion-icon name="calendar-outline"></ion-icon>
+    
+                                    <time class="meta-info" datetime="2024-01-01">Jan 01 2024</time>
+                                </a>
+    
+                                <a href="#" class="card-meta-link">
+                                    <ion-icon name="person-outline"></ion-icon>
+    
+                                    <p class="meta-info">Rani Cakes Team</p>
+                                </a>
+    
+                            </div>
+    
+                            <h3 class="h3">
+                                <a href="#" class="card-title">Top Trends in Cake Decorating</a>
+                            </h3>
+    
+                            <p class="card-text">
+                                Discover the latest trends in cake decorating and how you can bring them to life in your next celebration...
+                            </p>
+    
+                            <a href="#" class="btn-link">
+                                <span>Read More</span>
+    
+                                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                            </a>
+    
+                        </div>
+    
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="blog-card">
+    
+                        <div class="card-banner">
+                            <img src="./assets/images/blog-2.jpg" width="600" height="390" loading="lazy"
+                                alt="Perfect Cake Recipes for Every Occasion" class="w-100">
+    
+                            <div class="badge">Recipes</div>
+                        </div>
+    
+                        <div class="card-content">
+    
+                            <div class="card-meta-wrapper">
+    
+                                <a href="#" class="card-meta-link">
+                                    <ion-icon name="calendar-outline"></ion-icon>
+    
+                                    <time class="meta-info" datetime="2024-01-08">Feb 08 2024</time>
+                                </a>
+    
+                                <a href="#" class="card-meta-link">
+                                    <ion-icon name="person-outline"></ion-icon>
+    
+                                    <p class="meta-info">Rani Cakes Team</p>
+                                </a>
+    
+                            </div>
+    
+                            <h3 class="h3">
+                                <a href="#" class="card-title">Perfect Cake Recipes for Every Occasion</a>
+                            </h3>
+    
+                            <p class="card-text">
+                                Explore our collection of cake recipes that are perfect for any occasion, from birthdays to anniversaries...
+                            </p>
+    
+                            <a href="#" class="btn-link">
+                                <span>Read More</span>
+    
+                                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                            </a>
+    
+                        </div>
+    
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="blog-card">
+    
+                        <div class="card-banner">
+                            <img src="./assets/images/blog-3.jpg" width="600" height="390" loading="lazy"
+                                alt="How to Bake the Perfect Cake at Home" class="w-100">
+    
+                            <div class="badge">Baking Tips</div>
+                        </div>
+    
+                        <div class="card-content">
+    
+                            <div class="card-meta-wrapper">
+    
+                                <a href="#" class="card-meta-link">
+                                    <ion-icon name="calendar-outline"></ion-icon>
+    
+                                    <time class="meta-info" datetime="2024-01-15">Mar 15 2024</time>
+                                </a>
+    
+                                <a href="#" class="card-meta-link">
+                                    <ion-icon name="person-outline"></ion-icon>
+    
+                                    <p class="meta-info">Rani Cakes Team</p>
+                                </a>
+    
+                            </div>
+    
+                            <h3 class="h3">
+                                <a href="#" class="card-title">How to Bake the Perfect Cake at Home</a>
+                            </h3>
+    
+                            <p class="card-text">
+                                Learn tips and tricks for baking a perfect cake at home, including essential techniques and common mistakes to avoid...
+                            </p>
+    
+                            <a href="#" class="btn-link">
+                                <span>Read More</span>
+    
+                                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                            </a>
+    
+                        </div>
+    
+                    </div>
+                </li>
+    
+            </ul>
+    
+        </div>
+    </section>
+    
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+
+    <div class="footer-top" style="background-image: url('./assets/images/footer-illustration.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="" class="logo">Rani Cake<span class="span">.</span></a>
+
+<p class="footer-text">
+  Rani Cake specializes in creating exquisite and delicious cakes for all occasions. From classic favorites to custom creations, our cakes are made with the finest ingredients and utmost care. Whether you're celebrating a birthday, wedding, or any special event, Rani Cake ensures a memorable experience with every bite.
+</p>
+
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/deepak.kafle.37051"  class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/ranicake123/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftiktok.com%2F%40ranicake01%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2ZuafT8xUxS8FVC3zoHzfuilt2SixrHwAbCNG9xgMprUUVGvuDgHbxa1M_aem_rGLelbAWdO-zDseKIwF7KQ&h=AT1PCzh6ZoHHQIbg5w3mUEn9GNClo_LteN2VZIVbuVB_t2ep-XeUHv8x7EZ_WQi2xVDj_bznaOACX5ySodKjwSLBSqR2IJRTVK9Zv0JHX1aaPx0VXlCCSeHVwFX-aOwzhZg4XhrwpGL_DROAzFSZ" class="social-link">
+                <ion-icon name="logo-tiktok"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Info</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">+977 984-7940662</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">ranicake23gmail.com</p>
+          </li>
+
+          <li>
+            <address class="footer-list-item">Pipalbot-Tulsipur, Dang</address>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Opening Hours</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Monday-Friday: 08:00 AM -22:00 PM</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Tuesday 4PM: Till Mid Night</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Saturday: 10:00 AM-16:00 Pm</p>
+          </li>
+
+        </ul>
+
+        <form action="" class="footer-form">
+
+          <p class="footer-list-title">Give Your Order</p>
+        
+          <div class="input-wrapper">
+        
+            <input type="text" name="full_name" required placeholder="Your Name" aria-label="Your Name"
+              class="input-field">
+        
+            <input type="email" name="email_address" required placeholder="Email" aria-label="Email"
+              class="input-field">
+        
+          </div>
+        
+          <div class="input-wrapper">
+        
+            <select name="cake_option" aria-label="Cake Option" class="input-field">
+              <option value="classic">Classic Cake</option>
+              <option value="chocolate">Chocolate Cake</option>
+              <option value="vanilla">Vanilla Cake</option>
+              <option value="red_velvet">Red Velvet Cake</option>
+              <option value="cheesecake">Cheesecake</option>
+              <option value="sponge">Sponge Cake</option>
+              <option value="cupcake">Cupcakes</option>
+            </select>
+        
+            <input type="date" name="booking_date" aria-label="Reservation Date" class="input-field">
+        
+            <!-- New time input with label -->
+            <input type="time" name="booking_time" aria-label="Reservation Time" placeholder="Reservation Time" class="input-field">
+        
+          </div>
+        
+          <div class="input-wrapper">
+        
+            <!-- New KG input -->
+            <input type="number" name="cake_weight" required placeholder="Weight (kg)" aria-label="Weight in Kilograms" class="input-field" min="0.5" step="0.5">
+        
+          </div>
+        
+          <textarea name="message" required placeholder="Message" aria-label="Message" class="input-field"></textarea>
+        
+          <button type="submit" class="btn">Order</button>
+        
+        </form>
+        
+        
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright-text">
+          &copy; 2024 All Rights Reserved. Made by <a href="https://www.nishchalkc.com.np/" class="copyright-link">Nishchal Kc</a>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
